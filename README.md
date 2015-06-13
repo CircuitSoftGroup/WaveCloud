@@ -8,4 +8,4 @@ This repository is the frontend UI you see on Wave Cloud, licensed under CC0. Th
 
 This page also serves as our issue tracker, although pull requests should be submitted in their respective place.
 
-For the backend, checkout [the code that powers Wave Cloud](https://github.com/CircuitSoftGroup/WaveCloudCore).
+For the backend, check out [the code that powers Wave Cloud](https://github.com/CircuitSoftGroup/WaveCloudCore).
