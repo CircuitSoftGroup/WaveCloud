@@ -1,2 +1,2 @@
 # WaveCloud
-A cloud service.
+An online storage service.
