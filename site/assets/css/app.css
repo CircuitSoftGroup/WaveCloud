@@ -1,0 +1,13 @@
+header {
+  background: url("https://farm8.staticflickr.com/7328/9239046157_8ba4928a66_o.jpg");
+  background-size: cover;
+}
+header p {
+  color: #fff;
+}
+.f-icon {
+  background: #000;
+  padding: 2rem;
+  font-size: 3rem;
+  color: #fff;
+}
