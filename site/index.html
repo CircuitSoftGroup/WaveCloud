@@ -46,23 +46,33 @@
 	<section id="products" class="container">
 		<div class="row">
 			<div class="col-md-4 col-md-offset-2">
-				<ul class="nav nav-tabs nav-stacked">
-				  <li role="presentation" class="active"><a href="#">Download the app</a></li>
-				  <li role="presentation"><a href="#">Host Wave Cloud yourself</a></li>
-				  <li role="presentation"><a href="#">Find alternative hosts</a></li>
+				<ul class="nav nav-tabs nav-stacked" role="tablist">
+				  <li role="presentation" class="active"><a href="#download" aria-controls="download" role="tab" data-toggle="tab">Download the app</a></li>
+				  <li role="presentation"><a href="#host" aria-controls="host" role="tab" data-toggle="tab">Host Wave Cloud yourself</a></li>
+				  <li role="presentation"><a href="#hosts" aria-controls="hosts" role="tab" data-toggle="tab">Find alternative hosts</a></li>
 				</ul>
 			</div>
-			<div class="col-md-4" style="padding-top: 2rem; padding-left: 4rem">
-				<a href="download/WaveCloud-W64.exe" class="btn btn-primary btn-lg">Download for Windows</a>
-				<p style="font-size: 1rem"><a href="download">Other systems and languages</a></p>
+			<div class="col-md-4 tab-content" style="padding-top: 2rem; padding-left: 4rem">
+				<div role="tabpanel" class="tab-pane active" id="download">
+					<a href="https://download.owncloud.com/desktop/stable/ownCloud-1.8.3.5213-setup.exe" class="btn btn-primary btn-lg">Download for Windows</a>
+					<p style="font-size: 1rem"><a href="https://owncloud.org/install/#install-clients">Other systems and languages</a></p>
+				</div>
+				<div role="tabpanel" class="tab-pane" id="host">
+					<a href="https://download.owncloud.org/community/owncloud-8.0.4.zip" class="btn btn-primary btn-lg">Download zip</a>
+					<a href="https://download.owncloud.org/community/owncloud-8.0.4.tar.bz2" class="btn btn-primary">Download tar.bz2</a>
+					<p style="font-size: 1rem"><a href="https://owncloud.org/install/#instructions-server">Other downloads</a></p>
+				</div>
+				<div role="tabpanel" class="tab-pane" id="hosts">
+					<p>There aren't any Wave Cloud hosts. Perhaps you could look at <a href="https://owncloud.org/providers/">ownCloud hosts</a>?
+				</div>
 			</div>
 		</div>
 	</section>
 	<br><br>
 	<footer id="footer" class="jumbotron">
 		<div class="container">
-		  <p class="lead">Made with &#x2764; by CircuitSoft</p>
-		  <p style="font-size: 1rem;"><a href="privacy">Privacy Policy</a> | <a href="terms">Terms of Service</a> | <a href="guidelines">Community Guidelines</a></p>
+		  <p class="lead">Made with &#x2764; by <a href="https://circuitsoft.org">CircuitSoft</a></p>
+		  <p style="font-size: 1rem;"><a href="privacy">Privacy Policy</a> | <a href="terms">Terms of Service</a> | <a href="guidelines">Community Guidelines</a> | <a href="https://github.com/CircuitSoftGroup/WaveCloud/">Source code</a></p>
 		</div>
 	</footer>
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.4.min.js"></script>
